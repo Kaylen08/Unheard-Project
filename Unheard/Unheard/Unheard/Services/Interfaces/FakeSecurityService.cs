@@ -100,7 +100,7 @@ namespace PrismAppExample.Services
             menuItem.NavigationPath = "NavigationPage/HomePage";
             menuItem.MenuOrder = 3;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "map.png";
+            menuItem.ImageName = "home.png";
 
             _allMenuItems.Add(menuItem);
 
@@ -110,7 +110,7 @@ namespace PrismAppExample.Services
             menuItem.NavigationPath = "NavigationPage/AboutPage";
             menuItem.MenuOrder = 4;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "other.png";
+            menuItem.ImageName = "about.png";
 
             _allMenuItems.Add(menuItem);
 
@@ -120,7 +120,7 @@ namespace PrismAppExample.Services
             menuItem.NavigationPath = "NavigationPage/SetAppointmentPage";
             menuItem.MenuOrder = 4;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "other.png";
+            menuItem.ImageName = "set.jpg";
 
             _allMenuItems.Add(menuItem);
 

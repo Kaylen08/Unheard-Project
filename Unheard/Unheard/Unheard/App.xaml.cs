@@ -44,6 +44,7 @@ namespace Unheard
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
 
             containerRegistry.RegisterForNavigation<SignUp, SignUpViewModel>();
+            containerRegistry.RegisterForNavigation<Logout, LogoutViewModel>();
         }
     }
 }
