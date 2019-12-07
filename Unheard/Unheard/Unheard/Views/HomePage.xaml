@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Unheard.Views.HomePage">
+<StackLayout>
+    <ScrollView Orientation="Both">
+        <FlexLayout>
+            <Frame WidthRequest="300"
+                  HeightRequest="600" BackgroundColor="White"  BorderColor="Gray" HasShadow="True" >
+                <FlexLayout Direction="Column">
+                    <Label Text=""
+            />
+                    <Image Source="Darkness.jpg"
+                WidthRequest="180"
+                HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                </FlexLayout>
+            </Frame>
+           
+            <Frame WidthRequest="300"
+                HeightRequest="600">
+                <FlexLayout Direction="Column">
+                    <Label Text=""
+             />
+                    <Label Text="" />
+                    <Image Source="Depressed.jpg"
+               WidthRequest="240"
+               HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                    <Button />
+                </FlexLayout>
+            </Frame>
+          
+            <Frame WidthRequest="300"
+                  HeightRequest="600">
+                <FlexLayout Direction="Column">
+                    <Label Text=""
+             />
+                    <Label Text="Unicorn" />
+                    <Image Source="Help.jpg"
+                    WidthRequest="180"
+                     HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                </FlexLayout>
+            </Frame>
+            
+            <Frame WidthRequest="300"
+                  HeightRequest="600">
+                <FlexLayout Direction="Column">
+                    <Label Text=""
+             />
+                    <Label Text="Unicorn" />
+                    <Image Source="Negative.jpg"
+                    WidthRequest="180"
+                     HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                </FlexLayout>
+            </Frame>
+
+            <Frame WidthRequest="300"
+                  HeightRequest="600">
+                <FlexLayout Direction="Column">
+                    <Label Text=""
+              />
+                    <Label Text="Unicorn" />
+                    <Image Source="Story.jpg"
+                    WidthRequest="180"
+                     HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                </FlexLayout>
+            </Frame>
+
+        </FlexLayout>
+    </ScrollView>
+</StackLayout>
+</ContentPage>

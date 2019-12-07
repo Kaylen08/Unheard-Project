@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Unheard.Views.SignUp">
+    
+    <StackLayout Margin="0" VerticalOptions="StartAndExpand">
+            <StackLayout>
+                    <Label Text="Full Name" FontSize="Large"/>
+                    <Entry Text="{Binding FullName}" />
+                    <Label Text="Gender" FontSize="Large" />
+                    <Entry Text="{Binding Gender}" />
+                    <Label Text="Username" FontSize="Large" />
+                    <Entry Text="{Binding Username}" />
+                    <Label Text="Password" FontSize="Large" />
+                    <Entry Text="{Binding Password}" />
+                    <Label Text="Re-Type Password" FontSize="Large" />
+                    <Entry Text="{Binding Re-TypePassword}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center"></StackLayout>
+        <Button Text="SignUp" Command="{Binding ToSignUp}" CornerRadius="30" BackgroundColor="Gray"/>
+        </StackLayout>
+    
+</ContentPage>
+    
+    
