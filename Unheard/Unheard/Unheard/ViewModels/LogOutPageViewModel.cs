@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace Unheard.ViewModels
 {
-    public class LogoutViewModel : BindableBase
+    public class LogOutPageViewModel : BindableBase
     {
-        public LogoutViewModel()
+        public LogOutPageViewModel()
         {
 
         }

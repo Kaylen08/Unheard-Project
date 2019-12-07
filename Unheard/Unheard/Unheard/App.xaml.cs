@@ -44,7 +44,9 @@ namespace Unheard
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
 
             containerRegistry.RegisterForNavigation<SignUp, SignUpViewModel>();
-            containerRegistry.RegisterForNavigation<Logout, LogoutViewModel>();
+            containerRegistry.RegisterForNavigation<ChatWithProfessionalPage, ChatWithProfessionalPageViewModel>();
+            containerRegistry.RegisterForNavigation<StartDiaryPage, StartDiaryPageViewModel>();
+            containerRegistry.RegisterForNavigation<LogOutPage, LogOutPageViewModel>();
         }
     }
 }

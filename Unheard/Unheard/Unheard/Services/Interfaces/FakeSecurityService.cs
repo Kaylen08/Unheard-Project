@@ -86,7 +86,7 @@ namespace PrismAppExample.Services
 
             menuItem = new MenuItem();
             menuItem.MenuItemId = 2;
-            menuItem.MenuItemName = "Logout";
+            menuItem.MenuItemName = "LogOut";
             menuItem.NavigationPath = "";
             menuItem.MenuOrder = 99;
             menuItem.MenuType = MenuTypeEnum.LogOut;
@@ -120,29 +120,30 @@ namespace PrismAppExample.Services
             menuItem.NavigationPath = "NavigationPage/SetAppointmentPage";
             menuItem.MenuOrder = 4;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "set.jpg";
+            menuItem.ImageName = "Set.jpg";
 
             _allMenuItems.Add(menuItem);
 
             menuItem = new MenuItem();
             menuItem.MenuItemId = 4;
-            menuItem.MenuItemName = "Other View";
-            menuItem.NavigationPath = "NavigationPage/OtherView";
+            menuItem.MenuItemName = "Chat With Professional";
+            menuItem.NavigationPath = "NavigationPage/ChatWithProfessionalPage";
             menuItem.MenuOrder = 4;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "other.png";
+            menuItem.ImageName = "chat.png";
 
             _allMenuItems.Add(menuItem);
 
             menuItem = new MenuItem();
             menuItem.MenuItemId = 4;
-            menuItem.MenuItemName = "Other View";
-            menuItem.NavigationPath = "NavigationPage/OtherView";
+            menuItem.MenuItemName = "Start Diary";
+            menuItem.NavigationPath = "NavigationPage/StartDiaryPage";
             menuItem.MenuOrder = 4;
             menuItem.MenuType = MenuTypeEnum.UnSecured;
-            menuItem.ImageName = "other.png";
+            menuItem.ImageName = "diary.png";
 
             _allMenuItems.Add(menuItem);
+
         }
     }
 }

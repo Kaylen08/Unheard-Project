@@ -2,9 +2,9 @@
 
 namespace Unheard.Views
 {
-    public partial class Logout : ContentPage
+    public partial class StartDiaryPage : ContentPage
     {
-        public Logout()
+        public StartDiaryPage()
         {
             InitializeComponent();
         }

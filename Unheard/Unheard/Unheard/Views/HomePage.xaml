@@ -28,9 +28,8 @@
                     <Image Source="Depressed.jpg"
                WidthRequest="240"
                HeightRequest="180" />
-                    <Label FlexLayout.Grow="1" />
-                    <Button />
-                </FlexLayout>
+                        <Label FlexLayout.Grow="1" />
+                    </FlexLayout>
             </Frame>
           
             <Frame WidthRequest="300"
