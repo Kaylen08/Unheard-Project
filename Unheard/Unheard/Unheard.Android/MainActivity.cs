@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
+using Xamarin.Forms;
 
 namespace Unheard.Droid
 {
@@ -15,6 +16,7 @@ namespace Unheard.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+            Forms.SetFlags("CarouselView_Experimental");
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));

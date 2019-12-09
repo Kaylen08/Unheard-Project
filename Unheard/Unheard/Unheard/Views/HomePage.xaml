@@ -4,74 +4,46 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Unheard.Views.HomePage">
-<StackLayout>
-    <ScrollView Orientation="Both">
-        <FlexLayout>
-            <Frame WidthRequest="300"
-                  HeightRequest="600" BackgroundColor="White"  BorderColor="Gray" HasShadow="True" >
-                <FlexLayout Direction="Column">
-                    <Label Text=""
-            />
-                    <Image Source="Darkness.jpg"
-                WidthRequest="180"
-                HeightRequest="180" />
-                    <Label FlexLayout.Grow="1" />
-                </FlexLayout>
-            </Frame>
-           
-            <Frame WidthRequest="300"
-                HeightRequest="600">
-                <FlexLayout Direction="Column">
-                    <Label Text=""
-             />
-                    <Label Text="" />
-                    <Image Source="Depressed.jpg"
-               WidthRequest="240"
-               HeightRequest="180" />
-                        <Label FlexLayout.Grow="1" />
-                    </FlexLayout>
-            </Frame>
-          
-            <Frame WidthRequest="300"
-                  HeightRequest="600">
-                <FlexLayout Direction="Column">
-                    <Label Text=""
-             />
-                    <Label Text="Unicorn" />
-                    <Image Source="Help.jpg"
-                    WidthRequest="180"
-                     HeightRequest="180" />
-                    <Label FlexLayout.Grow="1" />
-                </FlexLayout>
-            </Frame>
-            
-            <Frame WidthRequest="300"
-                  HeightRequest="600">
-                <FlexLayout Direction="Column">
-                    <Label Text=""
-             />
-                    <Label Text="Unicorn" />
-                    <Image Source="Negative.jpg"
-                    WidthRequest="180"
-                     HeightRequest="180" />
-                    <Label FlexLayout.Grow="1" />
-                </FlexLayout>
-            </Frame>
 
-            <Frame WidthRequest="300"
-                  HeightRequest="600">
-                <FlexLayout Direction="Column">
-                    <Label Text=""
-              />
-                    <Label Text="Unicorn" />
-                    <Image Source="Story.jpg"
-                    WidthRequest="180"
-                     HeightRequest="180" />
-                    <Label FlexLayout.Grow="1" />
-                </FlexLayout>
-            </Frame>
+    <StackLayout>
+        <CarouselView 
+        ItemsSource="{Binding Depress}">
+        <CarouselView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <Frame HasShadow="True"
+                               BorderColor="DarkGray"
+                               CornerRadius="5"
+                               Margin="20"
+                               HeightRequest="300"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                        <StackLayout>
+                            <Label Text="{Binding Name}" 
+                                       FontAttributes="Bold"
+                                       FontSize="Large"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
 
-        </FlexLayout>
-    </ScrollView>
-</StackLayout>
+                            
+                            <Image Source="{Binding ImageUrl}" 
+                                       Aspect="AspectFill"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       HorizontalOptions="Center" />
+                            <Label Text="{Binding Location}"
+                                       HorizontalOptions="Center" />
+                            <Label Text="{Binding Details}"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       MaxLines="5"
+                                       LineBreakMode="TailTruncation" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
+    </StackLayout>
+
 </ContentPage>

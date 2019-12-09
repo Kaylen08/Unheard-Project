@@ -33,6 +33,7 @@ namespace Unheard
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<ISecurityService, FakeSecurityService>();
+            containerRegistry.Register<IContentPackage, ZipContentPackage>();
 
 
 
