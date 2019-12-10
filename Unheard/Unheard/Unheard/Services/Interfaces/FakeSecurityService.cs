@@ -1,13 +1,12 @@
 ﻿using Prism.Events;
-using PrismAppExample.Enums;
-using PrismAppExample.Messages.Security;
-using PrismAppExample.Model.Security;
-using PrismAppExample.Services.Interfaces;
+using Unheard.Enums;
+using Unheard.Messages.Security;
+using Unheard.Model.Security;
+using Unheard.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
-using Unheard.Model.Security;
 
-namespace PrismAppExample.Services
+namespace Unheard.Services
 {
     public class FakeSecurityService : ISecurityService
     {

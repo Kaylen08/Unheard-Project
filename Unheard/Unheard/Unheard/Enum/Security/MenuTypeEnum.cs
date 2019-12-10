@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PrismAppExample.Enums
+namespace Unheard.Enums
 {
     public enum MenuTypeEnum
     {

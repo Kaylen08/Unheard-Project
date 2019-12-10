@@ -5,37 +5,43 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Unheard.Views.SetAppointmentPage">
 
-       
-    <StackLayout>
-      
-            
-        <Label Text="Name" FontSize="Medium"/>
-        <Entry Text="{Binding Name}" />
-        <Label Text="Surname" FontSize="Medium"/>
-        <Entry Text="{Binding Surname}"/>
-        <Label Text="Email address" FontSize="Medium"/>
-        <Entry Text="{Binding Emailaddress}"/>
-        <Label Text="Cell Phone" FontSize="Medium"/>
-        <Entry Text="{Binding CellPhone}"/>
-        <Label Text="Gender" FontSize="Medium"/>
-        <Entry Text="{Binding Gender}"/>
-        <Label Text="ID number" FontSize="Medium"/>
-        <Entry Text="{Binding IDnumber}"/>
-        <Label Text="Marital status" FontSize="Medium"/>
-        <Entry Text="{Binding MaritalStatus}"/>
-        <Label Text="Spouse Name" FontSize="Medium"/>
-        <Entry Text="{Binding SpouseName}"/>
-        <Label Text="Patient Employer" FontSize="Medium"/>
-        <Entry Text="{Binding PatientEmployer}"/>
-        <Label Text="Employer Phone" FontSize="Medium"/>
-        <Entry Text="{Binding EmployerPhone}"/>
-        <Label Text="Emergency Contact" FontSize="Medium"/>
-        <Entry Text="{Binding EmergencyContact}"/>
-        <Label Text="Date" FontSize="Medium"/>
-        <Entry Text="{Binding Date}"/>
-        <Label Text="Date of Appointment" FontSize="Medium"/>
-        <Entry Text="{Binding DateofAppointment}"/>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
 
-       
-    </StackLayout>
+
+
+                <Label Text="Name" FontSize="Medium"/>
+                <Entry Text="{Binding Name}" />
+                <Label Text="Surname" FontSize="Medium"/>
+                <Entry Text="{Binding Surname}"/>
+                <Label Text="Email address" FontSize="Medium"/>
+                <Entry Text="{Binding Emailaddress}"/>
+                <Label Text="Cell Phone" FontSize="Medium"/>
+                <Entry Text="{Binding CellPhone}"/>
+                <Label Text="Gender" FontSize="Medium"/>
+                <Entry Text="{Binding Gender}"/>
+                <Label Text="ID number" FontSize="Medium"/>
+                <Entry Text="{Binding IDnumber}"/>
+                <Label Text="Marital status" FontSize="Medium"/>
+                <Entry Text="{Binding MaritalStatus}"/>
+                <Label Text="Spouse Name" FontSize="Medium"/>
+                <Entry Text="{Binding SpouseName}"/>
+                <Label Text="Patient Employer" FontSize="Medium"/>
+                <Entry Text="{Binding PatientEmployer}"/>
+                <Label Text="Employer Phone" FontSize="Medium"/>
+                <Entry Text="{Binding EmployerPhone}"/>
+                <Label Text="Emergency Contact" FontSize="Medium"/>
+                <Entry Text="{Binding EmergencyContact}"/>
+                <Label Text="Date" FontSize="Medium"/>
+                <Entry Text="{Binding Date}"/>
+                <Label Text="Date of Appointment" FontSize="Medium"/>
+                <Entry Text="{Binding DateofAppointment}"/>
+
+                <Button Text="Save" Command="{Binding SaveCommand}"/>
+
+            </StackLayout>
+        </ScrollView>
+  </ContentPage.Content>
+             
 </ContentPage>

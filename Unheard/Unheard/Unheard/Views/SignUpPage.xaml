@@ -7,16 +7,17 @@
     
     <StackLayout Margin="0" VerticalOptions="StartAndExpand">
             <StackLayout>
+
                     <Label Text="Full Name" FontSize="Large"/>
-                    <Entry Text="{Binding FullName}" />
+                    <Entry Text="{Binding User.FullName}" />
                     <Label Text="Gender" FontSize="Large" />
-                    <Entry Text="{Binding Gender}" />
+            <Entry Text="{Binding User.Gender}" />
                     <Label Text="Username" FontSize="Large" />
-                    <Entry Text="{Binding Username}" />
+            <Entry Text="{Binding User.Username}" />
                     <Label Text="Password" FontSize="Large" />
-                    <Entry Text="{Binding Password}" />
+            <Entry Text="{Binding User.Password}" />
                     <Label Text="Re-Type Password" FontSize="Large" />
-                    <Entry Text="{Binding Re-TypePassword}"/>
+            <Entry Text="{Binding User.ConfirmPassword}"/>
             </StackLayout>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center"></StackLayout>
         <Button Text="SignUp" Command="{Binding ToSignUp}" CornerRadius="30" BackgroundColor="Gray"/>

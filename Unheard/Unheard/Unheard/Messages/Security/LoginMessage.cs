@@ -1,8 +1,8 @@
 ﻿using Prism.Events;
-using PrismAppExample.Model.Security;
+using Unheard.Model.Security;
 using Unheard.Model.Security;
 
-namespace PrismAppExample.Messages.Security
+namespace Unheard.Messages.Security
 {
     public class LoginMessage : PubSubEvent<UserProfile>
     {

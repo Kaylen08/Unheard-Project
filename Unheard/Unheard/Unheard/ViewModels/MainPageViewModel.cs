@@ -1,9 +1,9 @@
 ﻿using Prism.Commands;
 using Prism.Events;
 using Prism.Navigation;
-using PrismAppExample.Messages.Security;
-using PrismAppExample.Model.Security;
-using PrismAppExample.Services.Interfaces;
+using Unheard.Messages.Security;
+using Unheard.Model.Security;
+using Unheard.Services.Interfaces;
 using System;
 using System.Collections.ObjectModel;
 using Unheard.Model.Security;
@@ -30,7 +30,7 @@ namespace PrismMapsExample.ViewModels
 
         public async void ExecuteNavigateCommand(MenuItem menu)
         {
-            if (menu.MenuType == PrismAppExample.Enums.MenuTypeEnum.LogOut)
+            if (menu.MenuType == Unheard.Enums.MenuTypeEnum.LogOut)
                 _securityService.LogOut();
             else
                 await NavigationService.NavigateAsync(menu.NavigationPath);

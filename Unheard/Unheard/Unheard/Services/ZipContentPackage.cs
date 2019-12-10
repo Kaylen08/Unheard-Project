@@ -1,4 +1,4 @@
-﻿using PrismAppExample.Services.Interfaces;
+﻿using Unheard.Services.Interfaces;
 using PrismMapsExample;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Text;
 
-namespace PrismAppExample.Services
+namespace Unheard.Services
 {
     public class ZipContentPackage : IContentPackage
     {

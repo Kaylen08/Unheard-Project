@@ -1,8 +1,7 @@
 ﻿using Prism;
 using Prism.Ioc;
-using PrismAppExample.Services;
-using PrismAppExample.Services.Interfaces;
-using PrismAppExample.ViewModels;
+using Unheard.Services;
+using Unheard.Services.Interfaces;
 using PrismMapsExample.ViewModels;
 using Unheard.ViewModels;
 using Unheard.Views;
@@ -32,6 +31,7 @@ namespace Unheard
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<IDatabase, UnheardDatabase>();
             containerRegistry.RegisterSingleton<ISecurityService, FakeSecurityService>();
             containerRegistry.Register<IContentPackage, ZipContentPackage>();
 
@@ -48,6 +48,7 @@ namespace Unheard
             containerRegistry.RegisterForNavigation<ChatWithProfessionalPage, ChatWithProfessionalPageViewModel>();
             containerRegistry.RegisterForNavigation<StartDiaryPage, StartDiaryPageViewModel>();
             containerRegistry.RegisterForNavigation<LogOutPage, LogOutPageViewModel>();
+            containerRegistry.RegisterForNavigation<AppointmentInfo, AppointmentInfoViewModel>();
         }
     }
 }

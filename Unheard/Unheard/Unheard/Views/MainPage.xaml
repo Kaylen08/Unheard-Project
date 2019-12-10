@@ -2,7 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   xmlns:prism="http://prismlibrary.com"
-                  xmlns:converters="clr-namespace:PrismAppExample.Converters"
+                  xmlns:converters="clr-namespace:Unheard.Converters"
                   prism:ViewModelLocator.AutowireViewModel="True"
                   x:Class="Unheard.Views.MainPage">
     <MasterDetailPage.Master>

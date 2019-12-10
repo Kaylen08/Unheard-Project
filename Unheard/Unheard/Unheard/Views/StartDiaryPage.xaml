@@ -4,5 +4,18 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Unheard.Views.StartDiaryPage">
-  
+
+
+    <StackLayout>
+      <Button Text="Take Photo" Command="{Binding TakePhotoCommand}"/>
+    <Image HeightRequest="500" WidthRequest="500" Source="{Binding CameraImage,Path= Stream}"/>
+
+
+    <Button Text="Personal Diary" Command="{Binding PersonalDiaryCommand}"/>
+
+
+
+
+    </StackLayout>
+
 </ContentPage>

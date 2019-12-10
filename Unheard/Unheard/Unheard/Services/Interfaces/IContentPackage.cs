@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PrismAppExample.Services.Interfaces
+namespace Unheard.Services.Interfaces
 {
     public interface IContentPackage
     {

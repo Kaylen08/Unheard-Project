@@ -4,12 +4,13 @@ using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Xamarin.Forms;
 
 namespace Unheard.ViewModels
 {
-    public class ChatWithProfessionalPageViewModel : ViewModelBase
+    public class AppointmentInfoViewModel : ViewModelBase
     {
-        public ChatWithProfessionalPageViewModel(INavigationService navigationService) :base(navigationService)
+        public AppointmentInfoViewModel(INavigationService navigationService) : base(navigationService)
         {
 
         }

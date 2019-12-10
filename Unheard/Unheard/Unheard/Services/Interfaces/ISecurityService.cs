@@ -1,10 +1,7 @@
-﻿using PrismAppExample.Model.Security;
-using System;
+﻿using Unheard.Model.Security;
 using System.Collections.Generic;
-using System.Text;
-using Unheard.Model.Security;
 
-namespace PrismAppExample.Services.Interfaces
+namespace Unheard.Services.Interfaces
 {
     public interface ISecurityService
     {
