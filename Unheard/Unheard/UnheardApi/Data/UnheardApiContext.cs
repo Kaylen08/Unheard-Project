@@ -13,6 +13,6 @@ namespace UnheardApi.Models
         {
         }
 
-        public DbSet<UnheardApi.Models.User> Users { get; set; }
+        public DbSet<UnheardApi.Models.User> User { get; set; }
     }
 }

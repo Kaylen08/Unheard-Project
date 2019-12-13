@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Unheard.Droid.Resources
+namespace Appointments.Droid.Resources
 {
     [Activity(Label = "Splash_activity")]
     public class Splash_activity : Activity

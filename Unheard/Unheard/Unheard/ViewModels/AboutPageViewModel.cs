@@ -1,14 +1,14 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
-using Unheard.Services.Interfaces;
+using Appointments.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace Unheard.ViewModels
+namespace Appointments.ViewModels
 {
     public class AboutPageViewModel : ViewModelBase
     {

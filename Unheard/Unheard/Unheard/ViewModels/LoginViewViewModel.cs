@@ -1,12 +1,12 @@
 ﻿using Prism.Commands;
 using Prism.Events;
 using Prism.Navigation;
-using Unheard.Messages.Security;
-using Unheard.Model.Security;
-using Unheard.Services.Interfaces;
-using Unheard.ViewModels;
+using Appointments.Messages.Security;
+using Appointments.Model.Security;
+using Appointments.Services.Interfaces;
+using Appointments.ViewModels;
 
-namespace Unheard.ViewModels
+namespace Appointments.ViewModels
 {
     public class LoginViewViewModel : ViewModelBase
     {

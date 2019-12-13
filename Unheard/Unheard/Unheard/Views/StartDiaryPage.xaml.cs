@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Unheard.Views
+namespace Appointments.Views
 {
     public partial class StartDiaryPage : ContentPage
     {

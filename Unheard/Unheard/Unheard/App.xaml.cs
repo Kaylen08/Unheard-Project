@@ -1,15 +1,15 @@
 ﻿using Prism;
 using Prism.Ioc;
-using Unheard.Services;
-using Unheard.Services.Interfaces;
+using Appointments.Services;
+using Appointments.Services.Interfaces;
 using PrismMapsExample.ViewModels;
-using Unheard.ViewModels;
-using Unheard.Views;
+using Appointments.ViewModels;
+using Appointments.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Unheard
+namespace Appointments
 {
     public partial class App
     {

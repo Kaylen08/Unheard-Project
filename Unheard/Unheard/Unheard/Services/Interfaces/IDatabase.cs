@@ -3,13 +3,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Unheard.Model.Security;
+using Appointments.Model.Security;
+using Appointments.Model;
 
-namespace Unheard.Services.Interfaces
+namespace Appointments.Services.Interfaces
 {
     public interface IDatabase
     {
         Task<int> SaveItemAsync(UserProfile item);
+
+        Task<int> SaveItemAsync(Appointments item);
 
     }
 }

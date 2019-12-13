@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Unheard.Model;
+using Appointments.Model;
 
-namespace Unheard.ViewModels
+namespace Appointments.ViewModels
 {
     public class HomePageViewModel : ViewModelBase
     {

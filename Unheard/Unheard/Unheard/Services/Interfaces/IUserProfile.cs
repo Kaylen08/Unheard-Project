@@ -1,4 +1,4 @@
-﻿namespace Unheard.Services.Interfaces
+﻿namespace Appointments.Services.Interfaces
 {
     public class IUserProfile
     {

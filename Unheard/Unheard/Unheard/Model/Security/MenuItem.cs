@@ -1,9 +1,9 @@
-﻿using Unheard.Enums;
+﻿using Appointments.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Unheard.Model.Security
+namespace Appointments.Model.Security
 {
     public class MenuItem
     {

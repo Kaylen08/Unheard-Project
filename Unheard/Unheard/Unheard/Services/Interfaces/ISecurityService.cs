@@ -1,7 +1,7 @@
-﻿using Unheard.Model.Security;
+﻿using Appointments.Model.Security;
 using System.Collections.Generic;
 
-namespace Unheard.Services.Interfaces
+namespace Appointments.Services.Interfaces
 {
     public interface ISecurityService
     {

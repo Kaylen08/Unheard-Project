@@ -1,4 +1,4 @@
-﻿using Unheard.Services.Interfaces;
+﻿using Appointments.Services.Interfaces;
 using PrismMapsExample;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Text;
 
-namespace Unheard.Services
+namespace Appointments.Services
 {
     public class ZipContentPackage : IContentPackage
     {

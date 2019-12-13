@@ -1,11 +1,11 @@
 ﻿using Prism.Commands;
 using Prism.Events;
 using Prism.Navigation;
-using Unheard.Messages.Security;
-using Unheard.Model.Security;
-using Unheard.Services.Interfaces;
+using Appointments.Messages.Security;
+using Appointments.Model.Security;
+using Appointments.Services.Interfaces;
 using System.Collections.ObjectModel;
-using Unheard.ViewModels;
+using Appointments.ViewModels;
 
 namespace PrismMapsExample.ViewModels
 {
@@ -28,7 +28,7 @@ namespace PrismMapsExample.ViewModels
 
         public async void ExecuteNavigateCommand(MenuItem menu)
         {
-            if (menu.MenuType == Unheard.Enums.MenuTypeEnum.LogOut)
+            if (menu.MenuType == Appointments.Enums.MenuTypeEnum.LogOut)
                 _securityService.LogOut();
             else
                 await NavigationService.NavigateAsync(menu.NavigationPath);

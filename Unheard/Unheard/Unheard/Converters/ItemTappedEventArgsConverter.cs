@@ -3,7 +3,7 @@ using System.Globalization;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Unheard.Converters
+namespace Appointments.Converters
 {
     public class ItemTappedEventArgsConverter : IValueConverter, IMarkupExtension
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Unheard.Model
+namespace Appointments.Model
 {
     public class Depress
     {

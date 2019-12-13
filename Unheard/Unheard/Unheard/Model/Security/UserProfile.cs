@@ -1,8 +1,10 @@
-﻿using Unheard.Services.Interfaces;
+﻿using Appointments.Services.Interfaces;
 
-namespace Unheard.Model.Security
+namespace Appointments.Model.Security
 {
-    public class UserProfile : IUserProfile
+   
+
+ public class UserProfile : IUserProfile
     {
         public int ID { get; set; }
         public string FullName { get; set; }
@@ -19,4 +21,3 @@ namespace Unheard.Model.Security
 
  }
 }
-

@@ -1,12 +1,12 @@
 ﻿using Prism.Events;
-using Unheard.Enums;
-using Unheard.Messages.Security;
-using Unheard.Model.Security;
-using Unheard.Services.Interfaces;
+using Appointments.Enums;
+using Appointments.Messages.Security;
+using Appointments.Model.Security;
+using Appointments.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Unheard.Services
+namespace Appointments.Services
 {
     public class FakeSecurityService : ISecurityService
     {

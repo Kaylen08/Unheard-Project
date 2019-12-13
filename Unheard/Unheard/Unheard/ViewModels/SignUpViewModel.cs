@@ -1,9 +1,9 @@
 ﻿using Prism.Commands;
 using Prism.Navigation;
-using Unheard.Model.Security;
-using Unheard.Services.Interfaces;
+using Appointments.Model.Security;
+using Appointments.Services.Interfaces;
 
-namespace Unheard.ViewModels
+namespace Appointments.ViewModels
 {
     public class SignUpViewModel : ViewModelBase
     {

@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using Unheard.Model.Security;
-using Unheard.Services.Interfaces;
+using Appointments.Model.Security;
+using Appointments.Services.Interfaces;
 
-namespace Unheard.Services
+namespace Appointments.Services
 {
     public class UnheardDatabase : IDatabase
     {

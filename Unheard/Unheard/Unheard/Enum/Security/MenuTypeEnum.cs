@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Unheard.Enums
+namespace Appointments.Enums
 {
     public enum MenuTypeEnum
     {
