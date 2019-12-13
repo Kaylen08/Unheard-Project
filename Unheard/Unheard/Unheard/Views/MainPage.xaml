@@ -4,11 +4,11 @@
                   xmlns:prism="http://prismlibrary.com"
                   xmlns:converters="clr-namespace:Unheard.Converters"
                   prism:ViewModelLocator.AutowireViewModel="True"
-                  x:Class="Unheard.Views.MainPage">
+                  x:Class="Unheard.Views.MainPage" BackgroundColor="LightPink">
     <MasterDetailPage.Master>
         <NavigationPage Title="Menu" Icon="hamburger.png">
             <x:Arguments>
-                <ContentPage BackgroundColor="White" >
+                <ContentPage BackgroundColor="WhiteSmoke" >
                     <ListView ItemsSource="{Binding MenuItems}" HasUnevenRows="True" SelectionMode="None">
                         <ListView.ItemTemplate>
                             <DataTemplate>

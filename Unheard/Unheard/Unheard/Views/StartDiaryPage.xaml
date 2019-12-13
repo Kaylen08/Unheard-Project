@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="Unheard.Views.StartDiaryPage">
+             x:Class="Unheard.Views.StartDiaryPage" BackgroundColor="Beige">
 
 
     <StackLayout>
-      <Button Text="Take Photo" Command="{Binding TakePhotoCommand}"/>
+      <Button Text="Take Photo" Command="{Binding TakePhotoCommand}" BackgroundColor="Gray" CornerRadius="80" VerticalOptions="CenterAndExpand"/>
     <Image HeightRequest="500" WidthRequest="500" Source="{Binding CameraImage,Path= Stream}"/>
 
 
-    <Button Text="Personal Diary" Command="{Binding PersonalDiaryCommand}"/>
+    <Button Text="Personal Diary" Command="{Binding PersonalDiaryCommand}" BackgroundColor="Gray" CornerRadius="80" VerticalOptions="CenterAndExpand"/>
 
 
 

@@ -50,6 +50,7 @@ namespace Unheard
             containerRegistry.RegisterForNavigation<LogOutPage, LogOutPageViewModel>();
             containerRegistry.RegisterForNavigation<AppointmentInfo, AppointmentInfoViewModel>();
             containerRegistry.RegisterForNavigation<PersonalDiary, PersonalDiaryViewModel>();
+         
         }
     }
 }

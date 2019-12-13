@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="Unheard.Views.SignUp">
+             x:Class="Unheard.Views.SignUp" BackgroundColor="LightGreen">
     
     <StackLayout Margin="0" VerticalOptions="StartAndExpand">
             <StackLayout>
 
                     <Label Text="Full Name" FontSize="Large"/>
-                    <Entry Text="{Binding User.FullName}" />
+            <Entry Text="{Binding User.FullName}" />
                     <Label Text="Gender" FontSize="Large" />
             <Entry Text="{Binding User.Gender}" />
                     <Label Text="Username" FontSize="Large" />

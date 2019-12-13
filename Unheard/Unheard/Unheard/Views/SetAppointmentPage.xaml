@@ -3,14 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="Unheard.Views.SetAppointmentPage">
+             x:Class="Unheard.Views.SetAppointmentPage" BackgroundColor="LightGray">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-
-
-
                 <Label Text="Name" FontSize="Medium"/>
                 <Entry Text="{Binding Name}" />
                 <Label Text="Surname" FontSize="Medium"/>

@@ -4,9 +4,7 @@ using Prism.Navigation;
 using Unheard.Messages.Security;
 using Unheard.Model.Security;
 using Unheard.Services.Interfaces;
-using System;
 using System.Collections.ObjectModel;
-using Unheard.Model.Security;
 using Unheard.ViewModels;
 
 namespace PrismMapsExample.ViewModels

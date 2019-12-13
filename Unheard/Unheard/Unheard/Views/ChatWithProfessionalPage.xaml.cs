@@ -8,5 +8,10 @@ namespace Unheard.Views
         {
             InitializeComponent();
         }
+
+        private void Image_SizeChanged(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
