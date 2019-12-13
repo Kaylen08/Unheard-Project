@@ -7,11 +7,11 @@
 
 
     <StackLayout>
-      <Button Text="Take Photo" Command="{Binding TakePhotoCommand}" BackgroundColor="Gray" CornerRadius="80" VerticalOptions="CenterAndExpand"/>
+      <Button Text="Take Photo" Command="{Binding TakePhotoCommand}" BackgroundColor="Gray" CornerRadius="80" HorizontalOptions="Center" VerticalOptions="Center"/>
     <Image HeightRequest="500" WidthRequest="500" Source="{Binding CameraImage,Path= Stream}"/>
 
 
-    <Button Text="Personal Diary" Command="{Binding PersonalDiaryCommand}" BackgroundColor="Gray" CornerRadius="80" VerticalOptions="CenterAndExpand"/>
+    <Button Text="Personal Diary" Command="{Binding PersonalDiaryCommand}" BackgroundColor="Gray" CornerRadius="80" HorizontalOptions="Center"/>
 
 
 

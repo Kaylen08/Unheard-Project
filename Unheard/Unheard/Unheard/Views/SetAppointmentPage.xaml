@@ -35,7 +35,7 @@
                 <Label Text="Date of Appointment" FontSize="Medium"/>
                 <Entry Text="{Binding Info.DateofAppointment}"/>
 
-                <Button Text="Save" Command="{Binding SaveCommand}"/>
+                <Button Text="Save" Command="{Binding SaveCommand}" BackgroundColor="Blue"/>
 
             </StackLayout>
         </ScrollView>

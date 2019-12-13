@@ -43,41 +43,41 @@ namespace Appointments.ViewModels
 
             depress.Add(new Depress
             {
-                Name = "Baboon",
-                Location = "Africa & Asia",
-                Details = "Baboons are African and Arabian Old World monkeys belonging to the genus Papio, part of the subfamily Cercopithecinae.",
+                Name = "Sadness",
+                Location = "",
+                Details = "",
                 ImageUrl = "Darkness.jpg"
             });
 
             depress.Add(new Depress
             {
-                Name = "Capuchin Monkey",
-                Location = "Central & South America",
-                Details = "The capuchin monkeys are New World monkeys of the subfamily Cebinae. Prior to 2011, the subfamily contained only a single genus, Cebus.",
+                Name = "Stress",
+                Location = "",
+                Details = "",
                 ImageUrl = "Depressed.jpg"
             });
 
             depress.Add(new Depress
             {
-                Name = "Blue Monkey",
-                Location = "Central and East Africa",
-                Details = "The blue monkey or diademed monkey is a species of Old World monkey native to Central and East Africa, ranging from the upper Congo River basin east to the East African Rift and south to northern Angola and Zambia",
+                Name = "Doubt",
+                Location = "",
+                Details = "",
                 ImageUrl = "Help.jpg"
             });
 
             depress.Add(new Depress
             {
-                Name = "Squirrel Monkey",
-                Location = "Central & South America",
-                Details = "The squirrel monkeys are the New World monkeys of the genus Saimiri. They are the only genus in the subfamily Saimirinae. The name of the genus Saimiri is of Tupi origin, and was also used as an English name by early researchers.",
+                Name = "Negativity",
+                Location = "",
+                Details = "",
                 ImageUrl = "Negative.jpg"
             });
 
             depress.Add(new Depress
             {
-                Name = "Golden Lion Tamarin",
-                Location = "Brazil",
-                Details = "The golden lion tamarin also known as the golden marmoset, is a small New World monkey of the family Callitrichidae.",
+                Name = "Broken",
+                Location = "",
+                Details = "",
                 ImageUrl = "Broken.png"
             });
 

@@ -8,8 +8,9 @@
     <StackLayout>
         <Label Text="My Personal Diary"
                FontSize="50"
-               FontAttributes="Bold"
-               HorizontalOptions="Center" />
+               FontAttributes="Italic"
+               HorizontalOptions="Center" 
+             />
 
         <Editor VerticalOptions="FillAndExpand"
                 Margin="10" />

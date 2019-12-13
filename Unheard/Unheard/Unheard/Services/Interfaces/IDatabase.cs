@@ -12,7 +12,5 @@ namespace Appointments.Services.Interfaces
     {
         Task<int> SaveItemAsync(UserProfile item);
 
-        Task<int> SaveItemAsync(Appointments item);
-
     }
 }

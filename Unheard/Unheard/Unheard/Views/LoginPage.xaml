@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="Appointments.Views.LoginPage" Title="{Binding Title}" BackgroundColor="PeachPuff">
+             x:Class="Appointments.Views.LoginPage" Title="{Binding Title}" BackgroundColor="GhostWhite">
 
         <StackLayout Margin="0" VerticalOptions="StartAndExpand">
         <StackLayout>
